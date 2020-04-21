@@ -1,3 +1,5 @@
+/** ------------------------DEFAULT SETUP---------------------- */
+
 * {
     padding: 0px;
     margin: 0px;
@@ -10,4 +12,164 @@ html {
     color: lightgray;
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
+}
+
+
+/** ------------------------HEADER SECTION---------------------- */
+
+header {
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.9), 55%, rgba(45, 95, 93, 0.2)), url("../img/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*view heigh size no full website luon*/
+    background-attachment: fixed;
+    /** giu background o top */
+}
+
+.logo {
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+    transition: border-bottom 0.1s;
+    -webkit-transition: border-bottom 0.1s;
+    -moz-transition: border-bottom 0.1s;
+    -ms-transition: border-bottom 0.1s;
+    -o-transition: border-bottom 0.1s;
+    padding-bottom: 3px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid white;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.heading-main-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /**canhgiua*/
+    transform: translate(-45%, -55%);
+    -webkit-transform: translate(-45%, -55%);
+    -moz-transform: translate(-45%, -55%);
+    -ms-transform: translate(-45%, -55%);
+    -o-transform: translate(-45%, -55%);
+    width: 1140px;
+}
+
+
+/** ------------------------REUSABLE COMPONENT---------------------- */
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 500;
+    word-spacing: 5px;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 900;
+    color: #e67e22
+}
+
+h2::after {
+    content: " ";
+    display: block;
+    width: 180px;
+    height: 2px;
+    background: rgba(230, 126, 34, 0.4);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 15px 30px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    margin: 0 5px;
+    width: 190px;
+    /**theađồlànóthuộctypeinlineelementnênnókochỉnhđượcwidthheight,
+     * **muốnchỉnhthìchangesanginline-block*/
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #d35400;
+}
+
+.p-long {
+    text-align: center;
+    color: #265077;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 120%;
+}
+
+section {
+    padding-top: 30px;
+}
+
+
+/** ------------------------ABOUT SECTION---------------------- */
+
+.about-picture img {
+    width: 90%;
 }
