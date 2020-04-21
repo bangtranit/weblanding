@@ -81,7 +81,8 @@ header {
 /** ------------------------REUSABLE COMPONENT---------------------- */
 
 h1,
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -111,6 +112,16 @@ h2::after {
     text-align: center;
     margin: 0 auto;
     margin-top: 4px;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #265077;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .row {
@@ -165,6 +176,12 @@ h2::after {
 
 section {
     padding-top: 30px;
+}
+
+.small-icon {
+    color: #d35400;
+    font-size: 90%;
+    margin-right: 5px;
 }
 
 
@@ -231,4 +248,48 @@ section {
     /*Lammờảnh*/
     filter: blur(2px);
     -webkit-filter: brightness(80%) blur(2px);
+}
+
+
+/** ------------------------PRODUCT SECTION---------------------- */
+
+.product-section {
+    background-color: #f4f4f4;
+}
+
+.product-section h2 {
+    margin-bottom: 40px;
+}
+
+.product-box {
+    background-color: #eeefff;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 80%;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.product-price {
+    text-align: center;
+    color: #265077;
+    font-size: 190%;
+    font-weight: 300;
+}
+
+.product-price span {
+    font-size: 80%;
+}
+
+.product-box ul li {
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    color: rebeccapurple;
+}
+
+.product-box .btn {
+    margin-top: 20px;
+    margin-left: 20%;
 }
