@@ -26,6 +26,10 @@
     .mobile-nav-icon {
         visibility: hidden;
     }
+
+    .sticky .mobile-nav-icon{
+        visibility: hidden;
+    }
     
 }
 
@@ -45,6 +49,11 @@
     .mobile-nav-icon {
         visibility: hidden;
     }
+
+    .sticky .mobile-nav-icon{
+        visibility: hidden;
+    }
+
     .heading-main-box{
         transform: translate(-30%, -50%);
     }
@@ -172,6 +181,7 @@
     }
 
     .sticky .mobile-nav-icon{
+        visibility: visible;
         width: 100px;
         top: -10px;
         right: -3px;
@@ -184,6 +194,10 @@
         visibility: visible;
         margin-top: 35px;
         right: 40px
+    }
+
+    .sticky .mobile-nav-icon{
+        visibility: visible;
     }
 
 }
@@ -204,6 +218,10 @@
         visibility: visible;
         top: 90px;
         right: 40px
+    }
+
+    .sticky .mobile-nav-icon{
+        visibility: visible;
     }
 
     .heading-main-box{

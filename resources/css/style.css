@@ -83,6 +83,13 @@ header {
     width: 1140px;
 }
 
+.mobile-nav-icon {
+    visibility: hidden;
+}
+
+.sticky .mobile-nav-icon{
+    visibility: hidden;
+}
 
 /** ------------------------REUSABLE COMPONENT---------------------- */
 
