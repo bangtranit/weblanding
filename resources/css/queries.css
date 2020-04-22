@@ -1,0 +1,200 @@
+/*big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(-35%, -50%)
+    }
+
+    form{
+        margin-left: 30%;
+    }
+
+    figcaption{
+        visibility: visible
+    }
+
+    .contract-section .row .col ul li{
+        margin-bottom: 5px;
+    }
+
+    .contract-section .row .col .information .small-icon{
+        font-size: 150%;
+    }
+
+    
+}
+
+/*small tablet to big tablet from 768 ~ 1023 */
+@media only screen and (max-width: 1023px){
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .main-nav{
+        margin-right: 15px;
+        margin-top: 60px;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-30%, -50%);
+    }
+
+    .product-box{
+        width: 90%;
+    }
+    .product-box .btn{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .information{
+        margin-left: 20px;
+    }
+    .social-icons li{
+        margin-left: 20px;
+    }
+
+    .testimonials-section .row .col{
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .logo-sponsor{
+        width: 50%;
+    }
+
+    figcaption{
+        visibility: hidden
+    }
+    
+
+
+}
+
+/*small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        visibility: hidden;
+    }
+    .logo{
+        width: 400px;
+        margin-left: 13%;
+    }
+    .heading-main-box {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        /**canhgiua*/
+    }
+    
+   h1{
+        word-spacing: 3px;
+        font-size: 250%;
+    }
+
+    .heading-main-box{
+        transform: translate(-40%, -50%);
+    }
+
+    .about-picture{
+        text-align: center
+    }
+
+    .about-picture img{
+        width: 60%;
+    }
+
+    .about-section .row .p-long{
+        font-size: 22px;
+    }
+
+    .picture-title{
+        font-size: 20px;
+    }
+
+    .product-box{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .product-box ul li{
+        margin-left: 30%;
+    }
+
+    .product-section .col{
+        margin-bottom: 40px;
+    }
+
+    figcaption{
+        visibility: hidden
+    }
+
+    .contract-section .row .col{
+        width: 100%;
+    }
+
+    .information{
+        text-align: left
+    }
+
+    .information .small-icon{
+        font-size: 150%;
+    }
+
+    .social-icons{
+        margin-top: 0px;
+    }
+
+    form{
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+    }
+    label, input, textarea{
+        width: 80%;
+        margin-left: -5px;
+    }
+}
+
+/*small phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+
+    .logo{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .heading-main-box{
+        transform: translate(-25%, -50%)
+    }
+
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 10px;
+        width: 25%;
+    }
+
+    .contract-section .row .col .social-icons{
+        margin-bottom: 20px;
+    }
+    
+    .contract-section .row .col form{
+        margin-bottom: 20px;
+        padding-bottom: 10px;;
+    }
+
+    .contract-section .row .col form label{
+        margin-bottom: 3px;
+    }
+}
