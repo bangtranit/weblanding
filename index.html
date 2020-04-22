@@ -6,33 +6,34 @@
     <title>Selftaught</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/6a7da9a4ba.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
-    <script src="https://kit.fontawesome.com/6a7da9a4ba.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-    <header>
-        <a href="#">
-            <img class="logo" src="/resources/img/logo.png" alt="logo">
-        </a>
-        <ul class="main-nav">
-            <li>
-                <a href="#">How clients think</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Products</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
+    <header id="home">
+        <nav class="">
+            <a href="#home">
+                <img class="logo" src="/resources/img/logo.png" alt="logo">
+            </a>
+            <ul class="main-nav">
+                <li>
+                    <a href="#testimonials">How clients think</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#product">Products</a>
+                </li>
+                <li>
+                    <a href="#contract">Contact</a>
+                </li>
+            </ul>
+        </nav>
         <div class="clearfix"></div>
         <div class="row">
             <div class="heading-main-box">
@@ -45,7 +46,7 @@
         </div>
     </header>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="row">
             <h2>About Us</h2>
             <p class="p-long">
@@ -79,7 +80,8 @@
             </div>
         </div>
     </section>
-    <section class="product-section">
+
+    <section class="product-section" id="product">
         <h2>Product</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -117,7 +119,8 @@
             </div>
         </div>
     </section>
-    <section class="testimonials-section">
+
+    <section class="testimonials-section" id="testimonials">
         <h2>Testimonials</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -146,7 +149,8 @@
             </div>
         </div>
     </section>
-    <section class="sponsors-section">
+
+    <section class="sponsors-section" id="sponsors">
         <h2>Sponsors</h2>
         <div class="row">
             <ul class="sponsors-showcase">
@@ -205,7 +209,7 @@
         </div>
     </section>
 
-    <section class="contract-section">
+    <section class="contract-section" id="contract">
         <div class="row">
             <div class="col span-1-of-3">
                 <ul class="information">
@@ -252,12 +256,13 @@
                 </form>
             </div>
         </div>
-
     </section>
     <footer>
         Copyright &copy; 2018
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="./resources/js/scripts.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
 </body>
 
 </html>
