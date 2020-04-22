@@ -23,6 +23,9 @@
         font-size: 150%;
     }
 
+    .mobile-nav-icon {
+        visibility: hidden;
+    }
     
 }
 
@@ -38,6 +41,9 @@
     }
     .main-nav li{
         margin-right: 10px;
+    }
+    .mobile-nav-icon {
+        visibility: hidden;
     }
     .heading-main-box{
         transform: translate(-30%, -50%);
@@ -81,7 +87,11 @@
         width: 100%;
     }
     .main-nav{
-        visibility: hidden;
+        display: none
+    }
+    .mobile-nav-icon {
+        visibility: visible;
+        margin-top: 35px;
     }
     .logo{
         width: 400px;
@@ -93,7 +103,6 @@
         left: 80%;
         /**canhgiua*/
     }
-    
    h1{
         word-spacing: 3px;
         font-size: 250%;
@@ -161,6 +170,22 @@
         width: 80%;
         margin-left: -5px;
     }
+
+    .sticky .mobile-nav-icon{
+        width: 100px;
+        top: -10px;
+        right: -3px;
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+    .mobile-nav-icon {
+        visibility: visible;
+        margin-top: 35px;
+        right: 40px
+    }
+
 }
 
 /*small phones from 0 to 480px */
@@ -171,8 +196,14 @@
 
     .logo{
         margin-top: 50px;
-        width: 80%;
+        width: 60%;
         margin-left: 10%;
+    }
+
+    .mobile-nav-icon {
+        visibility: visible;
+        top: 90px;
+        right: 40px
     }
 
     .heading-main-box{

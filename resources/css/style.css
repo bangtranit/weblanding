@@ -210,6 +210,16 @@ section {
     margin-top: 30px;
 }
 
+/** ------------------------MOBILE NAVIGATION ICON---------------------- */
+
+.mobile-nav-icon{
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
 /** ------------------------ABOUT SECTION---------------------- */
 
 .about-picture {
